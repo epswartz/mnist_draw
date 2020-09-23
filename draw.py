@@ -58,7 +58,7 @@ def clf_on_click():
 # Set up tkinter components
 root = Tk()
 root.resizable(False, False)
-root.title("PAINT")
+root.title("mnist_draw")
 
 c = Canvas(root, width=w, height=h, bg='white')
 c.pack(expand=YES,fill=BOTH)
